@@ -1,0 +1,13 @@
+# 日志输出路径
+#log-file-path: log
+
+server:
+  port: 8875
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blockchain?serverTimezone=Asia/Shanghai
+    # 数据库用户名&密码：
+    username: root
+    password: wuyuanjian0

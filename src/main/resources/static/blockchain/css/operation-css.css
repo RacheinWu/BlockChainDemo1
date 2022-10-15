@@ -1,0 +1,79 @@
+*{
+    padding: 0 0;
+    margin: 0 0;
+}
+.func-box-1 {
+    display: none;
+    position: fixed;
+    background-color: rgba(76, 73, 73, 0.7);
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    /*border-radius: 8px;*/
+    /*border: 1px solid rebeccapurple;*/
+}
+.func-box-1 .c-2 {
+    display: none;
+    z-index: 991;
+    border-radius: 8px;
+    position: absolute;
+    background-color: rgba(255, 255, 255);
+    width: 400px;
+    /*height: 300px;*/
+    left: calc(50% - 200px);
+    top: 20%;
+}
+.func-box-1 .c-2 .desc {
+    padding: 35px 30px;
+    font-weight: bold;
+}
+.func-box-1 .c-2 .operation {
+    display: flex;
+}
+.func-box-1 .c-2 .operation div {
+    width: 50%;
+    /*height: 50px;*/
+    padding: 15px 10px;
+    text-align: center;
+    border-top: 1px solid rgb(52,152,219);
+}
+.func-box-1 .c-3 {
+    position: absolute;
+}
+
+.c-3 {
+    display: none;
+    left: calc(50% - 200px);
+    top: 26vh;
+    border-radius: 7px;
+    background-color: #ffffff;
+}
+.c-3 .title {
+    padding: 17px 9px;
+    /*background-color: ;*/
+    border-bottom: 2px solid rgb(163, 163, 163);
+}
+.c-3 .body .guodu {
+    height: 40px;
+    border-left: 4px dashed #6a6969;
+    margin: 20px 20px;
+}
+.c-3 .body .dl{
+    margin: 20px 20px;
+    font-weight: bold;
+    display: flex;
+}
+.c-3 .result {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(52,152,219)  ;
+    padding: 10px 20px;
+}
+.qued {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #c1c1c1;
+}
+.button {
+    cursor:pointer;/*鼠标变小手*/
+}
